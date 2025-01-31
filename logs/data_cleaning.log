@@ -1,0 +1,226 @@
+2025-01-30 04:02:47,611 - INFO - CSV file loaded successfully.
+2025-01-30 04:02:55,685 - INFO - CSV file loaded successfully.
+2025-01-30 04:05:53,771 - INFO - Data cleaning completed successfully.
+2025-01-30 04:05:53,838 - INFO - Cleaned data saved successfully to ../data/cleaned_telegram_data.csv
+2025-01-30 04:06:14,443 - INFO - Data cleaning completed successfully.
+2025-01-30 04:06:14,450 - INFO - Cleaned data saved successfully to ../data/cleaned_telegram_data.csv
+2025-01-30 04:13:21,093 - INFO - CSV file loaded successfully.
+2025-01-30 04:13:38,382 - INFO - Data cleaning completed successfully.
+2025-01-30 04:13:38,388 - INFO - Cleaned data saved successfully to ../data/cleaned_telegram_data.csv
+2025-01-30 04:16:31,512 - INFO - CSV file loaded successfully.
+2025-01-30 04:16:51,208 - INFO - Data cleaning completed successfully.
+2025-01-30 04:16:57,977 - INFO - Cleaned data saved successfully to ../data/cleaned_telegram_data.csv
+2025-01-30 04:18:25,138 - INFO - CSV file loaded successfully.
+2025-01-30 04:18:28,106 - INFO - Data cleaning completed successfully.
+2025-01-30 04:18:32,767 - INFO - Cleaned data saved successfully to ../data/cleaned_telegram_data.csv
+2025-01-30 04:18:41,393 - INFO - Successfully connected to the PostgreSQL database.
+2025-01-30 04:19:01,915 - INFO - Table 'telegram_messages' created successfully with new columns.
+2025-01-30 04:19:16,034 - ERROR - Error inserting data: (psycopg2.errors.UndefinedColumn) column "Channel Title" of relation "telegram_messages" does not exist
+LINE 1: INSERT INTO telegram_messages ("Channel Title", "Channel Use...
+                                       ^
+
+[SQL: INSERT INTO telegram_messages ("Channel Title", "Channel Username", "ID", "Message", "Date", "Media Path", emoji_used, youtube_links) VALUES (%(Channel_Title__0)s, %(Channel_Username__0)s, %(ID__0)s, %(Message__0)s, %(Date__0)s, %(Media_Path__0)s, %( ... 3006 characters truncated ... _20)s, %(Message__20)s, %(Date__20)s, %(Media_Path__20)s, %(emoji_used__20)s, %(youtube_links__20)s)]
+[parameters: {'Message__0': 'በቀን አንዴ ብቻ የሚባለው የቢዝነስ አማካሪ  በ 10,000 ብር ብቻ የተጀመረ ቢዝነስ እስከ ሚሊየኖች ያየገው የፕራግማ ኢንቨስትመንት መስራች መርድ ብስራት  ብላክ ማርኬት ዋጋ ማነው ሚተምነው ? ኢትዮጵያ ውስጥ ቢዝነስ ለመጀመር ጥሩ ሰአት ነው ወይ ?? 3 ቢዝነስ ስንጀምር የምንሰራው ስህተቶች ! አሁኑኑ ይመልከተቱ', 'Media_Path__0': 'photos/@DoctorsET_864.jpg', 'youtube_links__0': 'https://youtu.be/5DBoEm-8kmA?si=LDLuEecNfULJVDzL, https://youtu.be/5DBoEm-8kmA?si=LDLuEecNfULJVDzL', 'ID__0': '864', 'Date__0': '2023-12-18 17:04:02+00:00', 'emoji_used__0': '👈👈👇👇', 'Channel_Title__0': 'Doctors Ethiopia', 'Channel_Username__0': '@DoctorsET', 'Message__1': 'ዶክተርስ ኢትዮጵያ በ አዲስ አቀራረብ በ ቴሌቪዥን ፕሮግራሙን ለመጀመር ከፋተኛ ዝግጅት በማድረግ ላይ ይገኛል ። ዩሃንስ ግርማ ጆኒ ( በ ቲክቶክ ከ 500,000) በላይ ተከታይ ያገኘው ከ አሜሪካ ወደ ኢትዮጵያ  ገንዳ ውስጥ ከመተኛት እስከ ከፋተኛ ተከፋይ በኢትዮጵያ ( 1 take production ) በመባል የሚታወቀው ዩሃንስ ግርማ ( ጆኒ)  ከዲፕሬሽን እስከ ታዋቂነትን ያተረፈው ጆኒ  አሁኑኑ ይመልከቱ', 'Media_Path__1': 'photos/@DoctorsET_863.jpg', 'youtube_links__1': 'https://youtu.be/gwVN5eJQpko?si=xARsSxIEdZtE91GY', 'ID__1': '863', 'Date__1': '2023-11-03 16:14:39+00:00', 'emoji_used__1': '👇', 'Channel_Title__1': 'Doctors Ethiopia', 'Channel_Username__1': '@DoctorsET', 'Message__2': 'ሞት በስኳር  ለልጆቻችን የምናሲዘው ምሳቃ ሳናቀው እድሚያቸውን ይቀንሰው ይሆን  የታሸገ ትክክለኛ ጁስ ኢትዮጵያ ውስጥ የለም...! ሁሉም ወላጅ ሊያየው የሚገባ የታሸጉ ጁሶች መጠጣት እራስን ለከፍተኛ ጉዳት እስከ ሞት ድረስ ማጋለጥ ነው ! ለሁሉም ኢኮኖሚ ጤናንም የሚጠብቅ አመጋገብ የቱ ነው??', 'Media_Path__2': 'photos/@DoctorsET_862.jpg', 'youtube_links__2': 'https://youtu.be/oHiSRrNF7I0?si=Absgm414YSt_kjNq', 'ID__2': '862', 'Date__2': '2023-10-02 16:37:39+00:00', 'emoji_used__2': 'No emoji', 'Channel_Title__2': 'Doctors Ethiopia', 'Channel_Username__2': '@DoctorsET', 'Message__3': 'ከ HIV የተፈወሰ ሰው አጋጥሟችሁ ያቃል ? ፈውስ እና ህክምና ? ሙሉ ቪዲዮውን ተመልክተው ሃሳብ አስተያየቶን ያካፍሉን', 'Media_Path__3': 'photos/@DoctorsET_861.jpg', 'youtube_links__3': 'https://youtu.be/tTeErZxIh_Q?si=jKHyfWcC3sfXbC8L', 'ID__3': '861', 'Date__3': '2023-09-16 07:54:32+00:00', 'emoji_used__3': '👇👇👇👇', 'Channel_Title__3': 'Doctors Ethiopia', 'Channel_Username__3': '@DoctorsET', 'Message__4': 'በቅርብ ጊዜ በሃገራችን ላይ እየተስተዋለ ያለ የተመሳሳይ ፆታ ( Homosexuality ) ግብረ ሰዶም በተለያዩ ቦታዎች ላይ እየታየ ይገኛል ይህም አጥብቀን ምንቃወመው ጉዳይ ሲሆን  - ይህ ችግር በህምና ይለያል ወይ ? - ቅድመ ምልክት አለው ወይ ? ወላጆች ልጆቻችሁን እንዴት መጠበቅ ትችላለቹ ህክምናስ አለው ወይ ?? በምንመገበው ምግብ ሊቀይሩየን ይችላሉ ወይ ?  አሁኑኑ ገብተው ሙሉ ቪዲዮውን ይመልከቱ !', 'Media_Path__4': 'photos/@DoctorsET_860.jpg', 'youtube_links__4': 'https://youtu.be/0k65P5ouw7s?si=qaUgo75bUa3AMQxD', 'ID__4': '860', 'Date__4': '2023-09-01 16:16:15+00:00', 'emoji_used__4': 'No emoji', 'Channel_Title__4': 'Doctors Ethiopia', 'Channel_Username__4': '@DoctorsET', 'Message__5': 'ዶክተርስ ኢትዮጽያ በአዲስ ፕሮገራም ጀመረ ማረጥ  (ሜኖፖዝ ) ጋር ተያይዞ የሚመጣ ሴቶች ላይ የሚከሰት የጤና ችግሮች ሴቶች ላይ የሚከሰት የ ግብረስጋ ግንኙነት ስሜት መቀነስ ? የሴቶች የወር አበባ ግዜ እና ሌሎችም ጉዳዮች ተነስተዋል አሁኑኑ ይመልከቱ !! ከ ቴሌቪዥን ፕሮግራሞቻችን በተጨማሪ አዲስ በልዩ አቀራረብ ይበልጥ የናንተን የተመልካች ጥያቄ ለመመለስ  ይህን የመሰለ ፕሮግራም ይዘን መተናል  የጤና ጥያቄዎን ለመላክ @doctorsEt', 'Media_Path__5': 'photos/@DoctorsET_859.jpg', 'youtube_links__5': 'https://youtu.be/-AR1KO2DbFw?si=47cXLZtlmhx1Nlqc, https://youtu.be/-AR1KO2DbFw?si=47cXLZtlmhx1Nlqc', 'ID__5': '859', 'Date__5': '2023-08-29 17:20:05+00:00', 'emoji_used__5': '👇👇👇👇👇👇', 'Channel_Title__5': 'Doctors Ethiopia', 'Channel_Username__5': '@DoctorsET', 'Message__6': 'ክረምቱን ስፖርት መስራት አስበው ጂም ለመግባት ካልቻሉ ባሉበት ቦታ ሆነው እነዚህን እንቅስቃሴዎች በማድረግ በ አጭር ግዜ ውስጥ ለውጥ ማምጣት ይችላሉ  እቤትዎ ሆነው ጠዎት ወይንም ማታ ላይ በ 5 ደቃቃ ውስጥ ብቻ  - የጎን ቦርጭ(ስብ) ለማጥፋት  - ቀንዎን በንቃት ለመጀመር  እነዚህን እንቅስቃሴዎች ያድርጉ  ለሁሉም እድሜ ክልል የሚሆን እንቅስቃሴ ስለሆነ ከ ቤተሰቦ ጋር መስራት ይችላሉ !! ሊንኩን በመጫን ይመልከቱ / ዶክተርስ ኢትዮጵያ', 'Media_Path__6': 'photos/@DoctorsET_848.jpg' ... 68 parameters truncated ... 'Channel_Title__14': 'Doctors Ethiopia', 'Channel_Username__14': '@DoctorsET', 'Message__15': 'ዛሬ ምሽት 3:30 በ ፋና ቴሌቪዥን      ስለ ፕሮቲን : ክሬቲን ፓውደሮች ምን ማወቅ ይፈልጋሉ? ባሁኑ ሰአት በ ማህበራዊ ሚዲያ በ ከፋተኛ ሁኔታ እየተሸጡ የሚገኙ እነዚህ ፖውደሮች  እውነት ለ ኩላሊት ህመም ያጋልጣሉ ወይ? በተጨማሪም እቤቶ ሆነው እነዚህን እንቅስቃሴዎች  በማድረግ ጤናዎን ይጠብቁ። ስፖርት ሱስ ይሆናል ወይ ? መልሱን በ ፋና ቴሌቪዥን ይጠብቁን። 3:30 በ ፋና ቴሌቪዥን', 'Media_Path__15': 'photos/@DoctorsET_839.jpg', 'youtube_links__15': 'No YouTube link', 'ID__15': '839', 'Date__15': '2022-05-06 17:51:05+00:00', 'emoji_used__15': 'No emoji', 'Channel_Title__15': 'Doctors Ethiopia', 'Channel_Username__15': '@DoctorsET', 'Message__16': 'ከሳምንት በፊት በለቀቅነው ቦርጭን በህክምና እንዴት ማጥፋት ይቻላል በሚለው ርእሳችን  ከ 100,000 በላይ እይታን አግኝቷል ። ስለሆነም ቦርጭን ከምናጠፋበት ዋና መንገዶች ዋና አማራጭ የሆነው ስፖርታዊ እንቅስቃሴ ሲሆን እቤት ውስጥ ሆ ... (58 characters truncated) ...  ዮቲውብ ቻናላችን በመሄድ  ISSA certified personal Trainer    ትንሳይ ብርሃኑ ጋር ቆይታ አድርገናል። በቀላሉ ቦርጭን ያጥፉ  ቦሌ ቡልቡላ ማሪያም ማዞሪያ  ፐልስ ፊትነስ ጂምናዚየም በመምጣት አብረውን መስራት ይችላሉ', 'Media_Path__16': 'photos/@DoctorsET_836.jpg', 'youtube_links__16': 'https://youtu.be/zZCUggh-1DA', 'ID__16': '836', 'Date__16': '2022-05-01 11:13:33+00:00', 'emoji_used__16': 'No emoji', 'Channel_Title__16': 'Doctors Ethiopia', 'Channel_Username__16': '@DoctorsET', 'Message__17': 'No Message', 'Media_Path__17': 'photos/@DoctorsET_835.jpg', 'youtube_links__17': 'No YouTube link', 'ID__17': '835', 'Date__17': '2022-04-29 18:59:05+00:00', 'emoji_used__17': 'No emoji', 'Channel_Title__17': 'Doctors Ethiopia', 'Channel_Username__17': '@DoctorsET', 'Message__18': 'No Message', 'Media_Path__18': 'photos/@DoctorsET_834.jpg', 'youtube_links__18': 'No YouTube link', 'ID__18': '834', 'Date__18': '2022-04-29 18:57:35+00:00', 'emoji_used__18': 'No emoji', 'Channel_Title__18': 'Doctors Ethiopia', 'Channel_Username__18': '@DoctorsET', 'Message__19': 'No Message', 'Media_Path__19': 'photos/@DoctorsET_833.jpg', 'youtube_links__19': 'No YouTube link', 'ID__19': '833', 'Date__19': '2022-04-28 05:46:38+00:00', 'emoji_used__19': 'No emoji', 'Channel_Title__19': 'Doctors Ethiopia', 'Channel_Username__19': '@DoctorsET', 'Message__20': 'Message', 'Media_Path__20': 'Media Path', 'youtube_links__20': 'No YouTube link', 'ID__20': 'ID', 'Date__20': None, 'emoji_used__20': 'No emoji', 'Channel_Title__20': 'Channel Title', 'Channel_Username__20': 'Channel Username'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-01-30 04:25:16,145 - INFO - ✅ CSV file '../data/DoctorsET_data.csv' loaded successfully.
+2025-01-30 04:25:25,704 - INFO - ✅ Duplicates removed from dataset.
+2025-01-30 04:25:25,712 - INFO - ✅ Date column formatted to datetime.
+2025-01-30 04:25:25,716 - INFO - ✅ Missing values filled.
+2025-01-30 04:25:25,725 - INFO - ✅ Text columns standardized.
+2025-01-30 04:25:25,730 - INFO - ✅ Emojis extracted and stored in 'emoji_used' column.
+2025-01-30 04:25:25,737 - INFO - ✅ YouTube links extracted and stored in 'youtube_links' column.
+2025-01-30 04:25:25,740 - INFO - ✅ Data cleaning completed successfully.
+2025-01-30 04:25:33,972 - INFO - ✅ Cleaned data saved successfully to '../data/cleaned_telegram_data.csv'.
+2025-01-30 04:25:40,720 - INFO - ✅ Successfully connected to the PostgreSQL database.
+2025-01-30 04:25:48,042 - ERROR - ❌ Error inserting data: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type bigint: "ID"
+LINE 1: ...ube link'), ('Channel Title', 'Channel Username', 'ID', 'Mes...
+                                                             ^
+
+[SQL: INSERT INTO telegram_messages (channel_title, channel_username, message_id, message, message_date, media_path, emoji_used, youtube_links) VALUES (%(channel_title__0)s, %(channel_username__0)s, %(message_id__0)s, %(message__0)s, %(message_date__0)s, % ... 3346 characters truncated ... (message__20)s, %(message_date__20)s, %(media_path__20)s, %(emoji_used__20)s, %(youtube_links__20)s)]
+[parameters: {'message_id__0': '864', 'emoji_used__0': '👈👈👇👇', 'message__0': 'በቀን አንዴ ብቻ የሚባለው የቢዝነስ አማካሪ  በ 10,000 ብር ብቻ የተጀመረ ቢዝነስ እስከ ሚሊየኖች ያየገው የፕራግማ ኢንቨስትመንት መስራች መርድ ብስራት  ብላክ ማርኬት ዋጋ ማነው ሚተምነው ? ኢትዮጵያ ውስጥ ቢዝነስ ለመጀመር ጥሩ ሰአት ነው ወይ ?? 3 ቢዝነስ ስንጀምር የምንሰራው ስህተቶች ! አሁኑኑ ይመልከተቱ', 'channel_username__0': '@DoctorsET', 'youtube_links__0': 'https://youtu.be/5DBoEm-8kmA?si=LDLuEecNfULJVDzL, https://youtu.be/5DBoEm-8kmA?si=LDLuEecNfULJVDzL', 'message_date__0': '2023-12-18 17:04:02+00:00', 'channel_title__0': 'Doctors Ethiopia', 'media_path__0': 'photos/@DoctorsET_864.jpg', 'message_id__1': '863', 'emoji_used__1': '👇', 'message__1': 'ዶክተርስ ኢትዮጵያ በ አዲስ አቀራረብ በ ቴሌቪዥን ፕሮግራሙን ለመጀመር ከፋተኛ ዝግጅት በማድረግ ላይ ይገኛል ። ዩሃንስ ግርማ ጆኒ ( በ ቲክቶክ ከ 500,000) በላይ ተከታይ ያገኘው ከ አሜሪካ ወደ ኢትዮጵያ  ገንዳ ውስጥ ከመተኛት እስከ ከፋተኛ ተከፋይ በኢትዮጵያ ( 1 take production ) በመባል የሚታወቀው ዩሃንስ ግርማ ( ጆኒ)  ከዲፕሬሽን እስከ ታዋቂነትን ያተረፈው ጆኒ  አሁኑኑ ይመልከቱ', 'channel_username__1': '@DoctorsET', 'youtube_links__1': 'https://youtu.be/gwVN5eJQpko?si=xARsSxIEdZtE91GY', 'message_date__1': '2023-11-03 16:14:39+00:00', 'channel_title__1': 'Doctors Ethiopia', 'media_path__1': 'photos/@DoctorsET_863.jpg', 'message_id__2': '862', 'emoji_used__2': 'No emoji', 'message__2': 'ሞት በስኳር  ለልጆቻችን የምናሲዘው ምሳቃ ሳናቀው እድሚያቸውን ይቀንሰው ይሆን  የታሸገ ትክክለኛ ጁስ ኢትዮጵያ ውስጥ የለም...! ሁሉም ወላጅ ሊያየው የሚገባ የታሸጉ ጁሶች መጠጣት እራስን ለከፍተኛ ጉዳት እስከ ሞት ድረስ ማጋለጥ ነው ! ለሁሉም ኢኮኖሚ ጤናንም የሚጠብቅ አመጋገብ የቱ ነው??', 'channel_username__2': '@DoctorsET', 'youtube_links__2': 'https://youtu.be/oHiSRrNF7I0?si=Absgm414YSt_kjNq', 'message_date__2': '2023-10-02 16:37:39+00:00', 'channel_title__2': 'Doctors Ethiopia', 'media_path__2': 'photos/@DoctorsET_862.jpg', 'message_id__3': '861', 'emoji_used__3': '👇👇👇👇', 'message__3': 'ከ HIV የተፈወሰ ሰው አጋጥሟችሁ ያቃል ? ፈውስ እና ህክምና ? ሙሉ ቪዲዮውን ተመልክተው ሃሳብ አስተያየቶን ያካፍሉን', 'channel_username__3': '@DoctorsET', 'youtube_links__3': 'https://youtu.be/tTeErZxIh_Q?si=jKHyfWcC3sfXbC8L', 'message_date__3': '2023-09-16 07:54:32+00:00', 'channel_title__3': 'Doctors Ethiopia', 'media_path__3': 'photos/@DoctorsET_861.jpg', 'message_id__4': '860', 'emoji_used__4': 'No emoji', 'message__4': 'በቅርብ ጊዜ በሃገራችን ላይ እየተስተዋለ ያለ የተመሳሳይ ፆታ ( Homosexuality ) ግብረ ሰዶም በተለያዩ ቦታዎች ላይ እየታየ ይገኛል ይህም አጥብቀን ምንቃወመው ጉዳይ ሲሆን  - ይህ ችግር በህምና ይለያል ወይ ? - ቅድመ ምልክት አለው ወይ ? ወላጆች ልጆቻችሁን እንዴት መጠበቅ ትችላለቹ ህክምናስ አለው ወይ ?? በምንመገበው ምግብ ሊቀይሩየን ይችላሉ ወይ ?  አሁኑኑ ገብተው ሙሉ ቪዲዮውን ይመልከቱ !', 'channel_username__4': '@DoctorsET', 'youtube_links__4': 'https://youtu.be/0k65P5ouw7s?si=qaUgo75bUa3AMQxD', 'message_date__4': '2023-09-01 16:16:15+00:00', 'channel_title__4': 'Doctors Ethiopia', 'media_path__4': 'photos/@DoctorsET_860.jpg', 'message_id__5': '859', 'emoji_used__5': '👇👇👇👇👇👇', 'message__5': 'ዶክተርስ ኢትዮጽያ በአዲስ ፕሮገራም ጀመረ ማረጥ  (ሜኖፖዝ ) ጋር ተያይዞ የሚመጣ ሴቶች ላይ የሚከሰት የጤና ችግሮች ሴቶች ላይ የሚከሰት የ ግብረስጋ ግንኙነት ስሜት መቀነስ ? የሴቶች የወር አበባ ግዜ እና ሌሎችም ጉዳዮች ተነስተዋል አሁኑኑ ይመልከቱ !! ከ ቴሌቪዥን ፕሮግራሞቻችን በተጨማሪ አዲስ በልዩ አቀራረብ ይበልጥ የናንተን የተመልካች ጥያቄ ለመመለስ  ይህን የመሰለ ፕሮግራም ይዘን መተናል  የጤና ጥያቄዎን ለመላክ @doctorsEt', 'channel_username__5': '@DoctorsET', 'youtube_links__5': 'https://youtu.be/-AR1KO2DbFw?si=47cXLZtlmhx1Nlqc, https://youtu.be/-AR1KO2DbFw?si=47cXLZtlmhx1Nlqc', 'message_date__5': '2023-08-29 17:20:05+00:00', 'channel_title__5': 'Doctors Ethiopia', 'media_path__5': 'photos/@DoctorsET_859.jpg', 'message_id__6': '848', 'emoji_used__6': '👇👇👇👇👇' ... 68 parameters truncated ... 'channel_title__14': 'Doctors Ethiopia', 'media_path__14': 'photos/@DoctorsET_840.jpg', 'message_id__15': '839', 'emoji_used__15': 'No emoji', 'message__15': 'ዛሬ ምሽት 3:30 በ ፋና ቴሌቪዥን      ስለ ፕሮቲን : ክሬቲን ፓውደሮች ምን ማወቅ ይፈልጋሉ? ባሁኑ ሰአት በ ማህበራዊ ሚዲያ በ ከፋተኛ ሁኔታ እየተሸጡ የሚገኙ እነዚህ ፖውደሮች  እውነት ለ ኩላሊት ህመም ያጋልጣሉ ወይ? በተጨማሪም እቤቶ ሆነው እነዚህን እንቅስቃሴዎች  በማድረግ ጤናዎን ይጠብቁ። ስፖርት ሱስ ይሆናል ወይ ? መልሱን በ ፋና ቴሌቪዥን ይጠብቁን። 3:30 በ ፋና ቴሌቪዥን', 'channel_username__15': '@DoctorsET', 'youtube_links__15': 'No YouTube link', 'message_date__15': '2022-05-06 17:51:05+00:00', 'channel_title__15': 'Doctors Ethiopia', 'media_path__15': 'photos/@DoctorsET_839.jpg', 'message_id__16': '836', 'emoji_used__16': 'No emoji', 'message__16': 'ከሳምንት በፊት በለቀቅነው ቦርጭን በህክምና እንዴት ማጥፋት ይቻላል በሚለው ርእሳችን  ከ 100,000 በላይ እይታን አግኝቷል ። ስለሆነም ቦርጭን ከምናጠፋበት ዋና መንገዶች ዋና አማራጭ የሆነው ስፖርታዊ እንቅስቃሴ ሲሆን እቤት ውስጥ ሆ ... (58 characters truncated) ...  ዮቲውብ ቻናላችን በመሄድ  ISSA certified personal Trainer    ትንሳይ ብርሃኑ ጋር ቆይታ አድርገናል። በቀላሉ ቦርጭን ያጥፉ  ቦሌ ቡልቡላ ማሪያም ማዞሪያ  ፐልስ ፊትነስ ጂምናዚየም በመምጣት አብረውን መስራት ይችላሉ', 'channel_username__16': '@DoctorsET', 'youtube_links__16': 'https://youtu.be/zZCUggh-1DA', 'message_date__16': '2022-05-01 11:13:33+00:00', 'channel_title__16': 'Doctors Ethiopia', 'media_path__16': 'photos/@DoctorsET_836.jpg', 'message_id__17': '835', 'emoji_used__17': 'No emoji', 'message__17': 'No Message', 'channel_username__17': '@DoctorsET', 'youtube_links__17': 'No YouTube link', 'message_date__17': '2022-04-29 18:59:05+00:00', 'channel_title__17': 'Doctors Ethiopia', 'media_path__17': 'photos/@DoctorsET_835.jpg', 'message_id__18': '834', 'emoji_used__18': 'No emoji', 'message__18': 'No Message', 'channel_username__18': '@DoctorsET', 'youtube_links__18': 'No YouTube link', 'message_date__18': '2022-04-29 18:57:35+00:00', 'channel_title__18': 'Doctors Ethiopia', 'media_path__18': 'photos/@DoctorsET_834.jpg', 'message_id__19': '833', 'emoji_used__19': 'No emoji', 'message__19': 'No Message', 'channel_username__19': '@DoctorsET', 'youtube_links__19': 'No YouTube link', 'message_date__19': '2022-04-28 05:46:38+00:00', 'channel_title__19': 'Doctors Ethiopia', 'media_path__19': 'photos/@DoctorsET_833.jpg', 'message_id__20': 'ID', 'emoji_used__20': 'No emoji', 'message__20': 'Message', 'channel_username__20': 'Channel Username', 'youtube_links__20': 'No YouTube link', 'message_date__20': None, 'channel_title__20': 'Channel Title', 'media_path__20': 'Media Path'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-01-30 04:27:29,236 - INFO - ✅ CSV file '../data/DoctorsET_data.csv' loaded successfully.
+2025-01-30 04:27:32,698 - INFO - ✅ Duplicates removed from dataset.
+2025-01-30 04:27:32,706 - INFO - ✅ Date column formatted to datetime.
+2025-01-30 04:27:32,709 - INFO - ✅ Missing values filled.
+2025-01-30 04:27:32,717 - INFO - ✅ Text columns standardized.
+2025-01-30 04:27:32,721 - INFO - ✅ Emojis extracted and stored in 'emoji_used' column.
+2025-01-30 04:27:32,731 - INFO - ✅ YouTube links extracted and stored in 'youtube_links' column.
+2025-01-30 04:27:32,734 - INFO - ✅ Data cleaning completed successfully.
+2025-01-30 04:27:49,037 - INFO - ✅ Cleaned data saved successfully to '../data/cleaned_telegram_data.csv'.
+2025-01-30 04:27:51,777 - INFO - ✅ Successfully connected to the PostgreSQL database.
+2025-01-30 04:27:54,624 - ERROR - ❌ Error inserting data: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type bigint: "ID"
+LINE 1: ...ube link'), ('Channel Title', 'Channel Username', 'ID', 'Mes...
+                                                             ^
+
+[SQL: INSERT INTO telegram_messages (channel_title, channel_username, message_id, message, message_date, media_path, emoji_used, youtube_links) VALUES (%(channel_title__0)s, %(channel_username__0)s, %(message_id__0)s, %(message__0)s, %(message_date__0)s, % ... 3346 characters truncated ... (message__20)s, %(message_date__20)s, %(media_path__20)s, %(emoji_used__20)s, %(youtube_links__20)s)]
+[parameters: {'message_date__0': '2023-12-18 17:04:02+00:00', 'youtube_links__0': 'https://youtu.be/5DBoEm-8kmA?si=LDLuEecNfULJVDzL, https://youtu.be/5DBoEm-8kmA?si=LDLuEecNfULJVDzL', 'media_path__0': 'photos/@DoctorsET_864.jpg', 'message__0': 'በቀን አንዴ ብቻ የሚባለው የቢዝነስ አማካሪ  በ 10,000 ብር ብቻ የተጀመረ ቢዝነስ እስከ ሚሊየኖች ያየገው የፕራግማ ኢንቨስትመንት መስራች መርድ ብስራት  ብላክ ማርኬት ዋጋ ማነው ሚተምነው ? ኢትዮጵያ ውስጥ ቢዝነስ ለመጀመር ጥሩ ሰአት ነው ወይ ?? 3 ቢዝነስ ስንጀምር የምንሰራው ስህተቶች ! አሁኑኑ ይመልከተቱ', 'message_id__0': '864', 'channel_title__0': 'Doctors Ethiopia', 'channel_username__0': '@DoctorsET', 'emoji_used__0': '👈👈👇👇', 'message_date__1': '2023-11-03 16:14:39+00:00', 'youtube_links__1': 'https://youtu.be/gwVN5eJQpko?si=xARsSxIEdZtE91GY', 'media_path__1': 'photos/@DoctorsET_863.jpg', 'message__1': 'ዶክተርስ ኢትዮጵያ በ አዲስ አቀራረብ በ ቴሌቪዥን ፕሮግራሙን ለመጀመር ከፋተኛ ዝግጅት በማድረግ ላይ ይገኛል ። ዩሃንስ ግርማ ጆኒ ( በ ቲክቶክ ከ 500,000) በላይ ተከታይ ያገኘው ከ አሜሪካ ወደ ኢትዮጵያ  ገንዳ ውስጥ ከመተኛት እስከ ከፋተኛ ተከፋይ በኢትዮጵያ ( 1 take production ) በመባል የሚታወቀው ዩሃንስ ግርማ ( ጆኒ)  ከዲፕሬሽን እስከ ታዋቂነትን ያተረፈው ጆኒ  አሁኑኑ ይመልከቱ', 'message_id__1': '863', 'channel_title__1': 'Doctors Ethiopia', 'channel_username__1': '@DoctorsET', 'emoji_used__1': '👇', 'message_date__2': '2023-10-02 16:37:39+00:00', 'youtube_links__2': 'https://youtu.be/oHiSRrNF7I0?si=Absgm414YSt_kjNq', 'media_path__2': 'photos/@DoctorsET_862.jpg', 'message__2': 'ሞት በስኳር  ለልጆቻችን የምናሲዘው ምሳቃ ሳናቀው እድሚያቸውን ይቀንሰው ይሆን  የታሸገ ትክክለኛ ጁስ ኢትዮጵያ ውስጥ የለም...! ሁሉም ወላጅ ሊያየው የሚገባ የታሸጉ ጁሶች መጠጣት እራስን ለከፍተኛ ጉዳት እስከ ሞት ድረስ ማጋለጥ ነው ! ለሁሉም ኢኮኖሚ ጤናንም የሚጠብቅ አመጋገብ የቱ ነው??', 'message_id__2': '862', 'channel_title__2': 'Doctors Ethiopia', 'channel_username__2': '@DoctorsET', 'emoji_used__2': 'No emoji', 'message_date__3': '2023-09-16 07:54:32+00:00', 'youtube_links__3': 'https://youtu.be/tTeErZxIh_Q?si=jKHyfWcC3sfXbC8L', 'media_path__3': 'photos/@DoctorsET_861.jpg', 'message__3': 'ከ HIV የተፈወሰ ሰው አጋጥሟችሁ ያቃል ? ፈውስ እና ህክምና ? ሙሉ ቪዲዮውን ተመልክተው ሃሳብ አስተያየቶን ያካፍሉን', 'message_id__3': '861', 'channel_title__3': 'Doctors Ethiopia', 'channel_username__3': '@DoctorsET', 'emoji_used__3': '👇👇👇👇', 'message_date__4': '2023-09-01 16:16:15+00:00', 'youtube_links__4': 'https://youtu.be/0k65P5ouw7s?si=qaUgo75bUa3AMQxD', 'media_path__4': 'photos/@DoctorsET_860.jpg', 'message__4': 'በቅርብ ጊዜ በሃገራችን ላይ እየተስተዋለ ያለ የተመሳሳይ ፆታ ( Homosexuality ) ግብረ ሰዶም በተለያዩ ቦታዎች ላይ እየታየ ይገኛል ይህም አጥብቀን ምንቃወመው ጉዳይ ሲሆን  - ይህ ችግር በህምና ይለያል ወይ ? - ቅድመ ምልክት አለው ወይ ? ወላጆች ልጆቻችሁን እንዴት መጠበቅ ትችላለቹ ህክምናስ አለው ወይ ?? በምንመገበው ምግብ ሊቀይሩየን ይችላሉ ወይ ?  አሁኑኑ ገብተው ሙሉ ቪዲዮውን ይመልከቱ !', 'message_id__4': '860', 'channel_title__4': 'Doctors Ethiopia', 'channel_username__4': '@DoctorsET', 'emoji_used__4': 'No emoji', 'message_date__5': '2023-08-29 17:20:05+00:00', 'youtube_links__5': 'https://youtu.be/-AR1KO2DbFw?si=47cXLZtlmhx1Nlqc, https://youtu.be/-AR1KO2DbFw?si=47cXLZtlmhx1Nlqc', 'media_path__5': 'photos/@DoctorsET_859.jpg', 'message__5': 'ዶክተርስ ኢትዮጽያ በአዲስ ፕሮገራም ጀመረ ማረጥ  (ሜኖፖዝ ) ጋር ተያይዞ የሚመጣ ሴቶች ላይ የሚከሰት የጤና ችግሮች ሴቶች ላይ የሚከሰት የ ግብረስጋ ግንኙነት ስሜት መቀነስ ? የሴቶች የወር አበባ ግዜ እና ሌሎችም ጉዳዮች ተነስተዋል አሁኑኑ ይመልከቱ !! ከ ቴሌቪዥን ፕሮግራሞቻችን በተጨማሪ አዲስ በልዩ አቀራረብ ይበልጥ የናንተን የተመልካች ጥያቄ ለመመለስ  ይህን የመሰለ ፕሮግራም ይዘን መተናል  የጤና ጥያቄዎን ለመላክ @doctorsEt', 'message_id__5': '859', 'channel_title__5': 'Doctors Ethiopia', 'channel_username__5': '@DoctorsET', 'emoji_used__5': '👇👇👇👇👇👇', 'message_date__6': '2022-08-02 17:42:08+00:00', 'youtube_links__6': 'https://youtu.be/0uiTzjEbh90' ... 68 parameters truncated ... 'channel_username__14': '@DoctorsET', 'emoji_used__14': 'No emoji', 'message_date__15': '2022-05-06 17:51:05+00:00', 'youtube_links__15': 'No YouTube link', 'media_path__15': 'photos/@DoctorsET_839.jpg', 'message__15': 'ዛሬ ምሽት 3:30 በ ፋና ቴሌቪዥን      ስለ ፕሮቲን : ክሬቲን ፓውደሮች ምን ማወቅ ይፈልጋሉ? ባሁኑ ሰአት በ ማህበራዊ ሚዲያ በ ከፋተኛ ሁኔታ እየተሸጡ የሚገኙ እነዚህ ፖውደሮች  እውነት ለ ኩላሊት ህመም ያጋልጣሉ ወይ? በተጨማሪም እቤቶ ሆነው እነዚህን እንቅስቃሴዎች  በማድረግ ጤናዎን ይጠብቁ። ስፖርት ሱስ ይሆናል ወይ ? መልሱን በ ፋና ቴሌቪዥን ይጠብቁን። 3:30 በ ፋና ቴሌቪዥን', 'message_id__15': '839', 'channel_title__15': 'Doctors Ethiopia', 'channel_username__15': '@DoctorsET', 'emoji_used__15': 'No emoji', 'message_date__16': '2022-05-01 11:13:33+00:00', 'youtube_links__16': 'https://youtu.be/zZCUggh-1DA', 'media_path__16': 'photos/@DoctorsET_836.jpg', 'message__16': 'ከሳምንት በፊት በለቀቅነው ቦርጭን በህክምና እንዴት ማጥፋት ይቻላል በሚለው ርእሳችን  ከ 100,000 በላይ እይታን አግኝቷል ። ስለሆነም ቦርጭን ከምናጠፋበት ዋና መንገዶች ዋና አማራጭ የሆነው ስፖርታዊ እንቅስቃሴ ሲሆን እቤት ውስጥ ሆ ... (58 characters truncated) ...  ዮቲውብ ቻናላችን በመሄድ  ISSA certified personal Trainer    ትንሳይ ብርሃኑ ጋር ቆይታ አድርገናል። በቀላሉ ቦርጭን ያጥፉ  ቦሌ ቡልቡላ ማሪያም ማዞሪያ  ፐልስ ፊትነስ ጂምናዚየም በመምጣት አብረውን መስራት ይችላሉ', 'message_id__16': '836', 'channel_title__16': 'Doctors Ethiopia', 'channel_username__16': '@DoctorsET', 'emoji_used__16': 'No emoji', 'message_date__17': '2022-04-29 18:59:05+00:00', 'youtube_links__17': 'No YouTube link', 'media_path__17': 'photos/@DoctorsET_835.jpg', 'message__17': 'No Message', 'message_id__17': '835', 'channel_title__17': 'Doctors Ethiopia', 'channel_username__17': '@DoctorsET', 'emoji_used__17': 'No emoji', 'message_date__18': '2022-04-29 18:57:35+00:00', 'youtube_links__18': 'No YouTube link', 'media_path__18': 'photos/@DoctorsET_834.jpg', 'message__18': 'No Message', 'message_id__18': '834', 'channel_title__18': 'Doctors Ethiopia', 'channel_username__18': '@DoctorsET', 'emoji_used__18': 'No emoji', 'message_date__19': '2022-04-28 05:46:38+00:00', 'youtube_links__19': 'No YouTube link', 'media_path__19': 'photos/@DoctorsET_833.jpg', 'message__19': 'No Message', 'message_id__19': '833', 'channel_title__19': 'Doctors Ethiopia', 'channel_username__19': '@DoctorsET', 'emoji_used__19': 'No emoji', 'message_date__20': None, 'youtube_links__20': 'No YouTube link', 'media_path__20': 'Media Path', 'message__20': 'Message', 'message_id__20': 'ID', 'channel_title__20': 'Channel Title', 'channel_username__20': 'Channel Username', 'emoji_used__20': 'No emoji'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-01-30 04:32:32,435 - INFO - ✅ CSV file '../data/DoctorsET_data.csv' loaded successfully.
+2025-01-30 04:32:35,524 - INFO - ✅ Duplicates removed from dataset.
+2025-01-30 04:32:35,534 - INFO - ✅ Date column formatted to datetime.
+2025-01-30 04:32:35,537 - INFO - ✅ Missing values filled.
+2025-01-30 04:32:35,545 - INFO - ✅ Text columns standardized.
+2025-01-30 04:32:35,553 - INFO - ✅ Emojis extracted and stored in 'emoji_used' column.
+2025-01-30 04:32:35,560 - INFO - ✅ YouTube links extracted and stored in 'youtube_links' column.
+2025-01-30 04:32:35,564 - INFO - ✅ Data cleaning completed successfully.
+2025-01-30 04:32:38,740 - INFO - ✅ Cleaned data saved successfully to '../data/cleaned_telegram_data.csv'.
+2025-01-30 04:32:43,476 - INFO - ✅ Successfully connected to the PostgreSQL database.
+2025-01-30 04:32:51,017 - INFO - ✅ Table 'telegram_messages' created successfully.
+2025-01-30 04:32:53,836 - ERROR - ❌ Error inserting data: (psycopg2.errors.InvalidDatetimeFormat) invalid input syntax for type timestamp: "NaT"
+LINE 4: ...Channel Title', 'Channel Username', 0, 'Message', 'NaT'::tim...
+                                                             ^
+
+[SQL: 
+        INSERT INTO telegram_messages 
+        (channel_title, channel_username, message_id, message, message_date, media_path, emoji_used, youtube_links) 
+        VALUES (%(channel_title)s, %(channel_username)s, %(message_id)s, %(message)s, %(message_date)s, %(media_path)s, %(emoji_used)s, %(youtube_links)s)
+        ON CONFLICT (message_id) DO NOTHING;
+        ]
+[parameters: {'channel_title': 'Channel Title', 'channel_username': 'Channel Username', 'message_id': 0, 'message': 'Message', 'message_date': NaT, 'media_path': 'Media Path', 'emoji_used': 'No emoji', 'youtube_links': 'No YouTube link'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-01-30 04:34:32,065 - INFO - ✅ CSV file '../data/DoctorsET_data.csv' loaded successfully.
+2025-01-30 04:34:34,694 - INFO - ✅ Duplicates removed from dataset.
+2025-01-30 04:34:34,703 - INFO - ✅ Date column formatted to datetime.
+2025-01-30 04:34:34,707 - INFO - ✅ Missing values filled.
+2025-01-30 04:34:34,716 - INFO - ✅ Text columns standardized.
+2025-01-30 04:34:34,720 - INFO - ✅ Emojis extracted and stored in 'emoji_used' column.
+2025-01-30 04:34:34,729 - INFO - ✅ YouTube links extracted and stored in 'youtube_links' column.
+2025-01-30 04:34:34,732 - INFO - ✅ Data cleaning completed successfully.
+2025-01-30 04:34:37,939 - INFO - ✅ Cleaned data saved successfully to '../data/cleaned_telegram_data.csv'.
+2025-01-30 04:34:39,946 - INFO - ✅ Successfully connected to the PostgreSQL database.
+2025-01-30 04:34:42,123 - INFO - ✅ Table 'telegram_messages' created successfully.
+2025-01-30 04:34:47,721 - ERROR - ❌ Error inserting data: (psycopg2.errors.InvalidDatetimeFormat) invalid input syntax for type timestamp: "NaT"
+LINE 4: ...Channel Title', 'Channel Username', 0, 'Message', 'NaT'::tim...
+                                                             ^
+
+[SQL: 
+        INSERT INTO telegram_messages 
+        (channel_title, channel_username, message_id, message, message_date, media_path, emoji_used, youtube_links) 
+        VALUES (%(channel_title)s, %(channel_username)s, %(message_id)s, %(message)s, %(message_date)s, %(media_path)s, %(emoji_used)s, %(youtube_links)s)
+        ON CONFLICT (message_id) DO NOTHING;
+        ]
+[parameters: {'channel_title': 'Channel Title', 'channel_username': 'Channel Username', 'message_id': 0, 'message': 'Message', 'message_date': NaT, 'media_path': 'Media Path', 'emoji_used': 'No emoji', 'youtube_links': 'No YouTube link'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-01-30 04:37:41,263 - INFO - ✅ CSV file '../data/DoctorsET_data.csv' loaded successfully.
+2025-01-30 04:37:44,485 - INFO - ✅ Duplicates removed from dataset.
+2025-01-30 04:37:44,495 - INFO - ✅ Date column formatted to datetime.
+2025-01-30 04:37:44,499 - INFO - ✅ Missing values filled.
+2025-01-30 04:37:44,507 - INFO - ✅ Text columns standardized.
+2025-01-30 04:37:44,514 - INFO - ✅ Emojis extracted and stored in 'emoji_used' column.
+2025-01-30 04:37:44,519 - INFO - ✅ YouTube links extracted and stored in 'youtube_links' column.
+2025-01-30 04:37:44,522 - INFO - ✅ Data cleaning completed successfully.
+2025-01-30 04:37:46,955 - INFO - ✅ Cleaned data saved successfully to '../data/cleaned_telegram_data.csv'.
+2025-01-30 04:37:49,425 - INFO - ✅ Successfully connected to the PostgreSQL database.
+2025-01-30 04:37:54,606 - ERROR - ❌ Error inserting data: (psycopg2.errors.InvalidDatetimeFormat) invalid input syntax for type timestamp: "NaT"
+LINE 4: ...Channel Title', 'Channel Username', 0, 'Message', 'NaT'::tim...
+                                                             ^
+
+[SQL: 
+        INSERT INTO telegram_messages 
+        (channel_title, channel_username, message_id, message, message_date, media_path, emoji_used, youtube_links) 
+        VALUES (%(channel_title)s, %(channel_username)s, %(message_id)s, %(message)s, %(message_date)s, %(media_path)s, %(emoji_used)s, %(youtube_links)s)
+        ON CONFLICT (message_id) DO NOTHING;
+        ]
+[parameters: {'channel_title': 'Channel Title', 'channel_username': 'Channel Username', 'message_id': 0, 'message': 'Message', 'message_date': NaT, 'media_path': 'Media Path', 'emoji_used': 'No emoji', 'youtube_links': 'No YouTube link'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-01-30 04:44:18,631 - INFO - ✅ CSV file '../data/DoctorsET_data.csv' loaded successfully.
+2025-01-30 04:44:24,025 - INFO - ✅ Duplicates removed from dataset.
+2025-01-30 04:44:24,038 - INFO - ✅ Date column formatted to datetime.
+2025-01-30 04:44:24,045 - INFO - ✅ Missing values filled.
+2025-01-30 04:44:24,052 - INFO - ✅ Text columns standardized.
+2025-01-30 04:44:24,056 - INFO - ✅ Emojis extracted and stored in 'emoji_used' column.
+2025-01-30 04:44:24,065 - INFO - ✅ YouTube links extracted and stored in 'youtube_links' column.
+2025-01-30 04:44:24,071 - INFO - ✅ Data cleaning completed successfully.
+2025-01-30 04:44:30,936 - INFO - ✅ Cleaned data saved successfully to '../data/cleaned_telegram_data.csv'.
+2025-01-30 04:49:25,670 - INFO - ✅ Cleaned data saved successfully to '../data/cleaned_telegram_data.csv'.
+2025-01-30 04:49:30,809 - INFO - ✅ Successfully connected to the PostgreSQL database.
+2025-01-30 04:49:37,168 - ERROR - ❌ Error inserting data: 'str' object has no attribute 'iterrows'
+2025-01-30 04:52:37,252 - INFO - ✅ 20 records inserted into PostgreSQL database.
+2025-01-30 04:54:51,957 - INFO - ✅ 20 records inserted into PostgreSQL database.
+2025-01-30 04:57:47,420 - INFO - ✅ CSV file '../data/DoctorsET_data.csv' loaded successfully.
+2025-01-30 04:57:51,685 - INFO - ✅ Duplicates removed from dataset.
+2025-01-30 04:57:51,714 - INFO - ✅ Date column formatted to datetime.
+2025-01-30 04:57:51,724 - INFO - ✅ Missing values filled.
+2025-01-30 04:57:51,736 - INFO - ✅ Text columns standardized.
+2025-01-30 04:57:51,745 - INFO - ✅ Emojis extracted and stored in 'emoji_used' column.
+2025-01-30 04:57:51,754 - INFO - ✅ YouTube links extracted and stored in 'youtube_links' column.
+2025-01-30 04:57:51,760 - INFO - ✅ Data cleaning completed successfully.
+2025-01-30 04:58:07,330 - INFO - ✅ Cleaned data saved successfully to '../data/cleaned_telegram_data.csv'.
+2025-01-30 04:58:10,056 - INFO - ✅ Successfully connected to the PostgreSQL database.
+2025-01-30 04:58:25,605 - INFO - ✅ 20 records inserted into PostgreSQL database.
+2025-01-30 05:01:16,991 - INFO - ✅ CSV file '../data/DoctorsET_data.csv' loaded successfully.
+2025-01-30 05:01:20,415 - INFO - ✅ Duplicates removed from dataset.
+2025-01-30 05:01:20,427 - INFO - ✅ Date column formatted to datetime.
+2025-01-30 05:01:20,434 - INFO - ✅ Missing values filled.
+2025-01-30 05:01:20,439 - INFO - ✅ Text columns standardized.
+2025-01-30 05:01:20,442 - INFO - ✅ Emojis extracted and stored in 'emoji_used' column.
+2025-01-30 05:01:20,449 - INFO - ✅ YouTube links extracted and stored in 'youtube_links' column.
+2025-01-30 05:01:20,452 - INFO - ✅ Data cleaning completed successfully.
+2025-01-30 05:01:31,528 - INFO - ✅ Cleaned data saved successfully to '../data/cleaned_telegram_data.csv'.
+2025-01-30 05:01:36,909 - INFO - ✅ Successfully connected to the PostgreSQL database.
+2025-01-30 05:01:55,753 - INFO - Inserting: 864 - 2023-12-18 17:04:02+00:00
+2025-01-30 05:01:55,758 - INFO - Inserting: 863 - 2023-11-03 16:14:39+00:00
+2025-01-30 05:01:55,760 - INFO - Inserting: 862 - 2023-10-02 16:37:39+00:00
+2025-01-30 05:01:55,762 - INFO - Inserting: 861 - 2023-09-16 07:54:32+00:00
+2025-01-30 05:01:55,766 - INFO - Inserting: 860 - 2023-09-01 16:16:15+00:00
+2025-01-30 05:01:55,768 - INFO - Inserting: 859 - 2023-08-29 17:20:05+00:00
+2025-01-30 05:01:55,771 - INFO - Inserting: 848 - 2022-08-02 17:42:08+00:00
+2025-01-30 05:01:55,773 - INFO - Inserting: 847 - 2022-06-12 17:15:47+00:00
+2025-01-30 05:01:55,775 - INFO - Inserting: 846 - 2022-05-31 17:51:13+00:00
+2025-01-30 05:01:55,780 - INFO - Inserting: 845 - 2022-05-20 18:04:53+00:00
+2025-01-30 05:01:55,782 - INFO - Inserting: 844 - 2022-05-15 15:59:10+00:00
+2025-01-30 05:01:55,785 - INFO - Inserting: 843 - 2022-05-07 18:22:14+00:00
+2025-01-30 05:01:55,787 - INFO - Inserting: 842 - 2022-05-06 17:51:05+00:00
+2025-01-30 05:01:55,790 - INFO - Inserting: 841 - 2022-05-06 17:51:05+00:00
+2025-01-30 05:01:55,793 - INFO - Inserting: 840 - 2022-05-06 17:51:05+00:00
+2025-01-30 05:01:55,796 - INFO - Inserting: 839 - 2022-05-06 17:51:05+00:00
+2025-01-30 05:01:55,803 - INFO - Inserting: 836 - 2022-05-01 11:13:33+00:00
+2025-01-30 05:01:55,806 - INFO - Inserting: 835 - 2022-04-29 18:59:05+00:00
+2025-01-30 05:01:55,809 - INFO - Inserting: 834 - 2022-04-29 18:57:35+00:00
+2025-01-30 05:01:55,814 - INFO - Inserting: 833 - 2022-04-28 05:46:38+00:00
+2025-01-30 05:01:56,032 - INFO - ✅ 20 records inserted into PostgreSQL database.
+2025-01-30 11:19:32,530 - INFO - ✅ CSV file '../data/DoctorsET_data.csv' loaded successfully.
+2025-01-30 11:19:56,478 - INFO - ✅ Duplicates removed from dataset.
+2025-01-30 11:19:56,692 - INFO - ✅ Date column formatted to datetime.
+2025-01-30 11:19:56,705 - INFO - ✅ Missing values filled.
+2025-01-30 11:19:56,721 - INFO - ✅ Text columns standardized.
+2025-01-30 11:19:56,735 - INFO - ✅ Emojis extracted and stored in 'emoji_used' column.
+2025-01-30 11:19:56,748 - INFO - ✅ YouTube links extracted and stored in 'youtube_links' column.
+2025-01-30 11:19:56,816 - INFO - ✅ Data cleaning completed successfully.
+2025-01-30 11:21:52,615 - INFO - ✅ Cleaned data saved successfully to '../data/cleaned_telegram_data.csv'.
+2025-01-30 11:30:39,176 - INFO - ✅ Successfully connected to the PostgreSQL database.
+2025-01-30 11:32:57,390 - INFO - ✅ Successfully connected to the PostgreSQL database.
+2025-01-30 11:33:18,131 - INFO - ✅ Table 'telegram_messages' created successfully.
+2025-01-30 11:35:06,915 - INFO - ✅ CSV file '../data/DoctorsET_data.csv' loaded successfully.
+2025-01-30 11:35:29,218 - INFO - ✅ Duplicates removed from dataset.
+2025-01-30 11:35:30,287 - INFO - ✅ Date column formatted to datetime.
+2025-01-30 11:35:30,303 - INFO - ✅ Missing values filled.
+2025-01-30 11:35:30,329 - INFO - ✅ Text columns standardized.
+2025-01-30 11:35:30,336 - INFO - ✅ Emojis extracted and stored in 'emoji_used' column.
+2025-01-30 11:35:30,345 - INFO - ✅ YouTube links extracted and stored in 'youtube_links' column.
+2025-01-30 11:35:30,492 - INFO - ✅ Data cleaning completed successfully.
+2025-01-30 11:35:41,062 - INFO - ✅ Cleaned data saved successfully to '../data/cleaned_telegram_data.csv'.
+2025-01-30 11:35:51,745 - INFO - ✅ Successfully connected to the PostgreSQL database.
+2025-01-30 11:36:05,012 - INFO - ✅ Table 'telegram_messages' created successfully.
+2025-01-30 11:37:26,261 - INFO - Inserting: 864 - 2023-12-18 17:04:02+00:00
+2025-01-30 11:37:26,321 - INFO - Inserting: 863 - 2023-11-03 16:14:39+00:00
+2025-01-30 11:37:26,327 - INFO - Inserting: 862 - 2023-10-02 16:37:39+00:00
+2025-01-30 11:37:26,335 - INFO - Inserting: 861 - 2023-09-16 07:54:32+00:00
+2025-01-30 11:37:26,341 - INFO - Inserting: 860 - 2023-09-01 16:16:15+00:00
+2025-01-30 11:37:26,359 - INFO - Inserting: 859 - 2023-08-29 17:20:05+00:00
+2025-01-30 11:37:26,370 - INFO - Inserting: 848 - 2022-08-02 17:42:08+00:00
+2025-01-30 11:37:26,383 - INFO - Inserting: 847 - 2022-06-12 17:15:47+00:00
+2025-01-30 11:37:26,392 - INFO - Inserting: 846 - 2022-05-31 17:51:13+00:00
+2025-01-30 11:37:26,404 - INFO - Inserting: 845 - 2022-05-20 18:04:53+00:00
+2025-01-30 11:37:26,412 - INFO - Inserting: 844 - 2022-05-15 15:59:10+00:00
+2025-01-30 11:37:26,437 - INFO - Inserting: 843 - 2022-05-07 18:22:14+00:00
+2025-01-30 11:37:26,443 - INFO - Inserting: 842 - 2022-05-06 17:51:05+00:00
+2025-01-30 11:37:26,449 - INFO - Inserting: 841 - 2022-05-06 17:51:05+00:00
+2025-01-30 11:37:26,460 - INFO - Inserting: 840 - 2022-05-06 17:51:05+00:00
+2025-01-30 11:37:26,478 - INFO - Inserting: 839 - 2022-05-06 17:51:05+00:00
+2025-01-30 11:37:26,567 - INFO - Inserting: 836 - 2022-05-01 11:13:33+00:00
+2025-01-30 11:37:26,573 - INFO - Inserting: 835 - 2022-04-29 18:59:05+00:00
+2025-01-30 11:37:26,577 - INFO - Inserting: 834 - 2022-04-29 18:57:35+00:00
+2025-01-30 11:37:26,581 - INFO - Inserting: 833 - 2022-04-28 05:46:38+00:00
+2025-01-30 11:37:27,886 - INFO - ✅ 20 records inserted into PostgreSQL database.
