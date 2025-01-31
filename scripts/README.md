@@ -1,0 +1,1 @@
+This is scripts folder for project modularization.
