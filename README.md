@@ -74,3 +74,7 @@ Run FastAPI using the following command:
 
 uvicorn main:app --reload
 
+
+
+Check FastAPI for Exposing Data in /src/main.py and for object detection in notebooks/task-3.ipynb
+
